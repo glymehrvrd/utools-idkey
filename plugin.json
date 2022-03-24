@@ -1,0 +1,19 @@
+{
+	"preload": "preload.js",
+	"logo": "logo.png",
+	"features": [
+		{
+			"code": "idkey",
+			"explain": "go to idkey monitor",
+			"cmds": [
+				"idkey",
+				{
+					"type": "regex",
+					"label": "idkey",
+					"match": "/\\d+((:|,)\\s*\\d+)?/",
+					"minLength": 1
+				}
+			]
+		}
+	]
+}
