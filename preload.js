@@ -24,7 +24,7 @@ function gen_idkey_url(s) {
     result.push({
         title: 'Search',
         description: 'Search for ' + results[0],
-        url: 'https://codes.woa.com/codesearch/search?full="' + encodeURIComponent(results[0].replace(':', ',')) + '"'
+        url: 'https://codes.woa.com/codesearch/search?full="' + encodeURIComponent(results[0].replace(':', ',')) + '"&searchall=true'
     })
     return result
 }
