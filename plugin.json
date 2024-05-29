@@ -10,8 +10,8 @@
 				{
 					"type": "regex",
 					"label": "idkey",
-					"match": "/\\d+((:|,)\\s*\\d+)?/",
-					"minLength": 1
+					"match": "/^\\d+((:|,)\\s*\\d+)?$/",
+					"minLength": 5
 				}
 			]
 		}
